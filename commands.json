@@ -1,0 +1,22 @@
+{
+  "ru": {
+    "common_user_commands": {
+    "start": "начать взаимодействие с чат ботом",
+      "info": "получить информацию о чат боте",
+    "help": "узнать, какие существуют возможности у пользователя",
+    "pincode": "получить права для использования рассылки (необходим пинкод)",
+      "language": "поменять язык"
+  },
+    "greetings": "Здравствуй!\nЯ - телеграм бот, выполняющий функцию рассылки. Я могу отправить любое сообщение любым пользователям.\nПиши /help для получения большей информации."
+  },
+  "en": {
+    "common_user_commands": {
+    "start": "to start communicating with chat bot",
+      "info": "to get information about chat bot",
+    "help": "to help user to know his possibilities",
+    "pincode": "to get rights for using a mailing (pincode required)",
+      "language": "to change a language"
+  },
+    "greetings": "Hello!\nI'm an mailing telegram bot. I can send any message you want to many users you want.\nWrite /help to get more information."
+  }
+}
