@@ -7,6 +7,18 @@
     "pincode": "получить права для использования рассылки (необходим пинкод)",
       "language": "поменять язык"
   },
+    "pincode_answers": {
+      "write_pincode": "Введите пинкод для авторизации.",
+      "invalid_pincode": "Неверный пинкод.",
+      "valid_pincode": "Вы успешно авторизовались!\nВведите /help."
+    },
+    "authorized_user_commands": {
+      "set_message": "настроить сообщение для рассылки",
+      "get_message": "посмотреть сообщение для рассылки",
+      "set_users": "настроить пользователей, кому будет отправлено сообщение",
+      "get_users": "посмотреть пользователей, кому будет отправлено сообщение",
+      "mail": "разослать сообщение выбранным пользователям"
+    },
     "greetings": "Здравствуй!\nЯ - телеграм бот, выполняющий функцию рассылки. Я могу отправить любое сообщение любым пользователям.\nПиши /help для получения большей информации."
   },
   "en": {
@@ -17,6 +29,18 @@
     "pincode": "to get rights for using a mailing (pincode required)",
       "language": "to change a language"
   },
+    "pincode_answers": {
+      "write_pincode": "Write a pincode for authorize.",
+      "invalid_pincode": "Invalid pincode.",
+      "valid_pincode": "Successful authorization!\nWrite /help."
+    },
+    "authorized_user_commands": {
+      "set_message": "edit message for the mailing",
+      "get_message": "show message for the mailing",
+      "set_users": "edit users, who will get a message",
+      "get_users": "show users, who will get a message",
+      "mail": "to mail a message to users"
+    },
     "greetings": "Hello!\nI'm an mailing telegram bot. I can send any message you want to many users you want.\nWrite /help to get more information."
   }
 }

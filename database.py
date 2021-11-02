@@ -79,8 +79,16 @@ if __name__ == '__main__':
     drop_database(db_name)
     create_database(db_name)
     create_table(db_name, 'users', "id INT UNSIGNED,"
-                                         "username varchar(20) NOT NULL,"
+                                         "username varchar(20) NOT NULL UNIQUE,"
                                          "language varchar(2) NOT NULL DEFAULT 'en',"
-                                         "has_rights boolean NOT NULL DEFAULT FALSE,"
-                                         "primary key(id)")
+                                         "has_perms boolean NOT NULL DEFAULT FALSE,"
+                                         "PRIMARY KEY(id)")
+    create_table(db_name, 'messages', "id INT UNSIGNED AUTOINCREMENT,"
+                                      "user_id INT UNSIGNED UNIQUE,"
+                                      "message text DEFAULT '',"
+                                      "FOREIGN KEY(user_id) REFERENCES users(id),"
+                                      "PRIMARY KEY(id)")
+    create_table(db_name, 'to_users', "id INT UNSIGNED AUTOINCREMENT,"
+                                      "user_id INT UNSIGNED,"
+                                      "to_user varchar()")
     disconnect_mysql()
